@@ -1,0 +1,14 @@
+#Module 1
+
+"assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+>myMean <- function(assignment2) { return(sum(assignment2)/length(assignment2)) }
+> YOUR turn..."
+
+#We evaluate the assigned data set created named "assignment2", which will be used in another command to perform further evaluation
+
+> assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+> myMean <- function(assignment2) { return(sum(assignment2)/length(assignment2)) }
+> myMean(assignment2)
+[1] 19.25
+
+#Once assignment2 is created it is used on a function named myMean. myMean returns the sum of all values in the array "assignment2" and divides it by the number of values or length of the array of "assignment2". Calling this function in the next line returns the mean of assignment2.
