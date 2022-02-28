@@ -1,0 +1,7 @@
+#An Example of S3 data
+NewList <- list(name = "Hero", height = 69.5, code = 2)
+NewList
+
+#An example of s4 data
+OldList <- new("student", name = "Him", height = 80.5, code = 1)
+#Troube getting s4 to compile correctly, will complete further analysis.
