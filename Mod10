@@ -10,15 +10,3 @@ Description:  Choose what food to eat or what music to listen to by selecting
     based off of picks while food can help to narrow down a restaurant.
 Encoding: UTF-8
 LazyData: true
-
-#So when making this package, in the long run I want to not only make it for food and music but I want to build upon it 
-    much further. This is my first R package so this idea of keeping a package for functions that I may use over and over again 
-    that could also turn into a bigger project intrigues me. My description file discusses how selecting
-    from a provided choice will help the user make a quicker decision instead of maybe wasting time on making a
-    call. For now I want to keep it simple by maybe making a couple selections maybe one from a mood and one from 
-    a number but in time I want it to become a bit more complex in how the choice is made by making the questions 
-    asked a bit more distinct or unique. I do want more feedback on this project choice and I also in time wanted 
-    to attempt to maybe make a games package or something along those lines. Probably a package that contains functions
-    such as a 'rock, paper, scissor' simulator combined with maybe like a 20 questions game that can could be constructed.
-    When doing the description file I wanted more understanding on the 'depends' bolding and i've been looking up various 
-    videos and blogs about R package creation so hopefully that is also cleared up more in time.
