@@ -1,0 +1,21 @@
+#RMarkdown Demonstration
+#Compile to html for visual Demonstration
+library(ggplot2)
+
+#Step 1 - Histogram of mpg
+ggplot(mtcars,aes(mpg)) + geom_histogram(bins = 5) + ggtitle("MPG")
+
+#Step 2 - Boxplots
+ggplot(mtcars,aes(cyl, mpg, group = cyl)) + geom_boxplot()
+
+#Step 3 - MultiLine chart
+ggplot(mtcars, aes(wt,mpg, group = am, color = am )) + geom_line(aes(y = mpg)) + geom_point(color = "orange", size = 2)
+
+#Step 4 - Barchart
+mtc <- rownames(mtcars)
+g <- ggplot(mtcars, aes(mtc,wt)) + geom_bar(stat = "identity")
+g + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+#Step 5 - Scatter chart
+h <- ggplot(mtcars, aes(mpg, wt)) + geom_point(aes(size = qsec, color = qsec))
+h + geom_text(aes(label = mtc), size = 3)
