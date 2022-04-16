@@ -4,4 +4,5 @@ B = matrix(c(5, 2, 4, -1), ncol = 2)
 A + B
 A - B
 
+#diag runs the input for x diagonally across the dataframe
 diag(x = c(4, 1, 2, 3), nrow = 4, ncol = 4)
